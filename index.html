@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Whatsapp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">Whatsapp</div>
+            <div class="icons">
+                <i class="fa fa-camera"></i>
+                <i class="fa fa-search" id="search"></i>
+                <i class="fa fa-ellipsis-v" id="settings"></i>
+            </div>
+        </header>
+        <ul class="tabs">
+            <li data-whatsapp="communities"><i class="fa fa-users"></i></li>
+            <li data-whatsapp="chats" class="active">chats<span class="num">4</span></li>
+            <li data-whatsapp="status">status</li>
+            <li data-whatsapp="calls">calls</li>
+        </ul>
+        <main class="content">
+            <section class="box communities">
+                <div class="community-img">
+                    <img src="communities.jpg" alt="">
+                </div>
+                <div class="community-text">
+                    <h3>Introducing Communities</h3>
+                    <p>Easily organize your related groups and send announcements. Now, your communities, like neighbourhoods or schools, can have their own space.</p>
+                </div>
+                <div class="button">
+                    <button class="btn">Start Your own Community</button>
+                </div>
+            </section>
+            <section class="box chats active">
+                <div class="data">
+                    <div class="chat-list">
+                        <div class="chat unread open">
+                            <div class="img-box">
+                                <img src="profile-1.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Rohit Sharma</h4>
+                                    <p class="time">4:10 pm</p>
+                                </div>
+                                <div class="message">
+                                    <p>How to make website using html css?</p>
+                                    <b>1</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unread">
+                            <div class="img-box">
+                                <img src="profile-2.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladka</h4>
+                                    <p class="time">7:10 pm</p>
+                                </div>
+                                <div class="message">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, facilis.</p>
+                                    <b>1</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unread">
+                            <div class="img-box">
+                                <img src="profile-3.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladki</h4>
+                                    <p class="time">9:10 pm</p>
+                                </div>
+                                <div class="message">
+                                    <p>Bye</p>
+                                    <b>1</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unread">
+                            <div class="img-box">
+                                <img src="profile-4.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Chaggan</h4>
+                                    <p class="time">8:10 pm</p>
+                                </div>
+                                <div class="message">
+                                    <p>How are you?</p>
+                                    <b>1</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat">
+                            <div class="img-box">
+                                <img src="profile-5.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Snumi</h4>
+                                    <p class="time">yesterday</p>
+                                </div>
+                                <div class="message">
+                                    <p>See you man</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat">
+                            <div class="img-box">
+                                <img src="profile-6.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Sara  Ali Khan</h4>
+                                    <p class="time">yesterday</p>
+                                </div>
+                                <div class="message">
+                                    <p>Done the work man</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat">
+                            <div class="img-box">
+                                <img src="profile-7.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>adipurush</h4>
+                                    <p class="time">23/6/2024</p>
+                                </div>
+                                <div class="message">
+                                    <p>Happy Birthday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat">
+                            <div class="img-box">
+                                <img src="profile-8.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Khushi</h4>
+                                    <p class="time">20/6/2024</p>
+                                </div>
+                                <div class="message">
+                                    <p>All the best for the exam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box status">
+                <div class="data">
+                    <div class="chat-list">
+                        <div class="status-head">
+                            <div class="my-img">
+                                <img src="New.jpg">
+                                <div class="plus"><div class="i fa fa-plus"></div>
+                            </div>
+                            </div>
+                            <div class="my-status">
+                                <h4>My status</h4>
+                                <p>Tap to add status update</p>
+                            </div>
+                            <label>Recent updates</label>
+                            <div class="chat unseen">
+                                <div class="img-box">
+                                    <img src="profile-1.jpeg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="chat-head">
+                                        <h4>Rohit Sharma</h4>
+                                    </div>
+                                    <div class="message">
+                                        <p>Just now</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unseen">
+                            <div class="img-box">
+                                <img src="profile-2.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladka</h4>
+                                </div>
+                                <div class="message">
+                                    <p>34 minutes ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unseen">
+                            <div class="img-box">
+                                <img src="profile-3.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladki</h4>
+                                </div>
+                                <div class="message">
+                                    <p>58 minutes ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat unseen">
+                            <div class="img-box">
+                                <img src="profile-4.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Chaggan</h4>
+                                </div>
+                                <div class="message">
+                                    <p>Today,7:17 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <label>Viewed updates</label>
+                        <div class="chat seen">
+                            <div class="img-box">
+                                <img src="profile-5.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Snumi</h4>
+                                </div>
+                                <div class="message">
+                                    <p>Today, 5:30 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat seen">
+                            <div class="img-box">
+                                <img src="profile-6.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Sara  Ali Khan</h4>
+                                </div>
+                                <div class="message">
+                                    <p>Today, 1:30 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat seen">
+                            <div class="img-box">
+                                <img src="profile-7.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>adipurush</h4>
+                                </div>
+                                <div class="message">
+                                    <p>Today, 12:30 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat seen">
+                            <div class="img-box">
+                                <img src="profile-8.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Khushi</h4>
+                                </div>
+                                <div class="message">
+                                    <p>Today, 8:30 AM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box calls">
+                <div class="data">
+                    <div class="chat-list">
+                        <div class="status-head">
+                            <div class="my-img green">
+                                <i class="fa fa-link"></i>
+                            </div>
+                            </div>
+                            <div class="my-status">
+                                <h4>Create call link</h4>
+                                <p>Share a link for your whatsapp call</p>
+                            </div>
+                            <label>Recent</label>
+                            <div class="chat outgoing">
+                                <div class="img-box">
+                                    <img src="profile-1.jpeg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="chat-head">
+                                        <h4>Rohit Sharma</h4>
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="message">
+                                        <p>
+                                            <i class="fa fa-long-arrow-alt-up"></i>
+                                            Today, 6:57 PM
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="chat outgoing">
+                            <div class="img-box">
+                                <img src="profile-2.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladka</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        Yesterday, 3:38 PM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat incoming">
+                            <div class="img-box">
+                                <img src="profile-3.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Ladki</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        Yesterday, 12:14 PM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat outgoing">
+                            <div class="img-box">
+                                <img src="profile-4.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Chaggan</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        March 30, 9:14 PM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat incoming">
+                            <div class="img-box">
+                                <img src="profile-5.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Snumi</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        March 15, 8:38 AM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat outgoing">
+                            <div class="img-box">
+                                <img src="profile-6.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Sara  Ali Khan</h4>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        March 15, 8:00 AM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat incoming">
+                            <div class="img-box">
+                                <img src="profile-7.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>adipurush</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fa fa-long-arrow-alt-up"></i>
+                                        March 13, 9:00 AM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat outgoing">
+                            <div class="img-box">
+                                <img src="profile-8.jpeg">
+                            </div>
+                            <div class="details">
+                                <div class="chat-head">
+                                    <h4>Khushi</h4>
+                                    <i class="fa fa-phone-alt"></i>
+                                </div>
+                                <div class="message">
+                                    <p>
+                                        <i class="fas fa-long-arrow-alt-up"></i>
+                                        March 13, 9:00 AM
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
